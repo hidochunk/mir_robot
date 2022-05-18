@@ -93,6 +93,9 @@ roslaunch robot5g teleop_joy.launch
 ```bash
 roslaunch path_coverage path_coverage.launch
 ```
+```diff
+- 根據是在運行模擬或是實體改變script/path_coverage_node.py之啟用行數;67為模擬用;68為實體用
+```
 - Click Publish Point at the top of RViz
 - Click a single corner of n corners of the region
 - Repeat for n times. After that you'll see a polygon with n corners
